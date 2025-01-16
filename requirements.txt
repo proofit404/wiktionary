@@ -28,6 +28,7 @@ pytest
 pyupgrade
 reorder-python-imports
 toml-sort
+types-beautifulsoup4
 xenon
 yamllint
 yesqa
