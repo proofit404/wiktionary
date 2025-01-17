@@ -12,7 +12,7 @@ name = "wiktionary-org"
 packages = [{from = "src", include = "wiktionary"}]
 readme = "docs/index.md"
 repository = "https://github.com/proofit404/wiktionary"
-version = "0.0.1dev0"
+version = "1.0.0"
 
 [tool.poetry.dependencies]
 beautifulsoup4 = "*"
