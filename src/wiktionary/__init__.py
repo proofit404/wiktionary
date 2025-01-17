@@ -1,0 +1,1 @@
+"""Wiktionary on-demand scrapper."""

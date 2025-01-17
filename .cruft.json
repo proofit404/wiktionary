@@ -1,0 +1,26 @@
+{
+  "template": "https://github.com/proofit404/python-library-template",
+  "commit": "afedd9894e933618d29b8b9edb8cb678fd84a36e",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "is_private": false,
+      "project_name": "wiktionary",
+      "__module_name": "wiktionary",
+      "project_description": "Wiktionary on-demand scrapper.",
+      "author_name": "Josiah Kaviani",
+      "author_email": "proofit404@gmail.com",
+      "github_user": "proofit404",
+      "__github_repository": "https://github.com/proofit404/wiktionary",
+      "__issues_url": "https://github.com/proofit404/wiktionary/issues",
+      "__documentation_url": "https://proofit404.github.io/wiktionary",
+      "__changelog_url": "https://proofit404.github.io/wiktionary/changelog",
+      "twitter_url": "https://twitter.com/proofit404",
+      "__pypi_project": "https://pypi.org/project/wiktionary",
+      "danger_github_api_token": "Z2hwX3YxcDE1M2NwMENBb1ZhRVduMEp5Q2tsMHRmUkF5UjNhOWpVNAo=",
+      "_template": "https://github.com/proofit404/python-library-template",
+      "_commit": "afedd9894e933618d29b8b9edb8cb678fd84a36e"
+    }
+  },
+  "directory": null
+}
