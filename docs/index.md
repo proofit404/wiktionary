@@ -7,6 +7,14 @@ Wiktionary on-demand scrapper.
 [Source Code](https://github.com/proofit404/wiktionary) |
 [Task Tracker](https://github.com/proofit404/wiktionary/issues)**
 
+```console
+$ wiktionary Korn Me
+{
+  "Korn": true,
+  "Me": true
+}
+```
+
 ## Questions
 
 If you have any questions, feel free to create an issue in our
