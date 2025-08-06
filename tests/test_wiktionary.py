@@ -54,3 +54,11 @@ def test_cli(word: str, found: bool) -> None:
 
     output: dict[str, bool] = loads(result.output)
     assert output == {word: found}
+
+
+def test_cli_no_args_error() -> None:
+    runner = CliRunner()
+
+    result = runner.invoke(cli)
+    assert result.exit_code == 1
+    assert result.output == "No words to lookup\n"
