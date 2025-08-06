@@ -16,6 +16,9 @@ from httpx import Response
 @command()
 @argument("words", nargs=-1)
 def cli(words: list[str]) -> None:
+    if not words:
+        echo("No words to lookup", err=True)
+        exit(1)
     with Client() as client:
         data = {word: proofread(client, word) for word in words}
         echo(dumps(data, indent=2, ensure_ascii=False))
