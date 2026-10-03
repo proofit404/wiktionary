@@ -9,7 +9,7 @@ documentation = "https://proofit404.github.io/wiktionary"
 homepage = "https://pypi.org/project/wiktionary"
 license = "BSD-2-Clause"
 name = "wiktionary-org"
-packages = [{from = "src", include = "wiktionary"}]
+packages = [{ from = "src", include = "wiktionary" }]
 readme = "docs/index.md"
 repository = "https://github.com/proofit404/wiktionary"
 version = "1.0.1"

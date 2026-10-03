@@ -6,4 +6,7 @@ set -o pipefail
 
 docker build --tag devweapon .
 
-docker run --rm --volume=.:/src --interactive --tty devweapon:latest ./scripts/install
+docker run --rm --volume=.:/src --interactive --tty devweapon:latest bash -c '
+  . $HOME/.nvm/nvm.sh
+  ./scripts/install
+'
