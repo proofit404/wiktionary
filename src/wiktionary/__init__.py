@@ -19,7 +19,19 @@ def cli(words: list[str]) -> None:
     if not words:
         echo("No words to lookup", err=True)
         exit(1)
-    with Client() as client:
+    with Client(
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Encoding": "gzip, deflate, br, zstd",
+            "Accept-Language": "en,ru;q=0.9",
+            "User-Agent": (
+                "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:155.0) "
+                "Gecko/20100101 "
+                "Firefox/155.0"
+            ),
+        },
+        http2=True,
+    ) as client:
         data = {word: proofread(client, word) for word in words}
         echo(dumps(data, indent=2, ensure_ascii=False))
 

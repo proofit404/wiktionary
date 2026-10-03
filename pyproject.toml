@@ -17,7 +17,7 @@ version = "1.0.1"
 [tool.poetry.dependencies]
 beautifulsoup4 = "*"
 click = "*"
-httpx = "*"
+httpx = { extras = ["http2"], version = "*" }
 python = "*"
 
 [tool.poetry.scripts]
