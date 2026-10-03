@@ -14,7 +14,7 @@
     "@typescript-eslint/parser": "*",
     "danger": "*",
     "eslint": "*",
-    "jscpd": "*",
+    "globals": "*",
     "prettier": "*",
     "remark-cli": "*",
     "remark-lint": "*",

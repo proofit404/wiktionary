@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/proofit404/python-library-template",
-  "commit": "e3b4464fd8c0bb386d86412b6400089db9bdecea",
+  "commit": "28fd1730d77b8322e25c1ff5b4c822d18918111f",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -20,7 +20,7 @@
       "danger_github_api_token": "Z2hwX3YxcDE1M2NwMENBb1ZhRVduMEp5Q2tsMHRmUkF5UjNhOWpVNAo=",
       "docker_tag": "devweapon",
       "_template": "https://github.com/proofit404/python-library-template",
-      "_commit": "e3b4464fd8c0bb386d86412b6400089db9bdecea"
+      "_commit": "28fd1730d77b8322e25c1ff5b4c822d18918111f"
     }
   },
   "directory": null
