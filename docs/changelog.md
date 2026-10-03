@@ -1,3 +1,10 @@
+## 1.0.2 (2026-10-03)
+
+### Bug Fixes
+
+- wiktionary user-agent protection
+  [#11](https://github.com/proofit404/wiktionary/issues/11) 000c66f
+
 ## 1.0.1 (2025-08-06)
 
 ### Bug Fixes
